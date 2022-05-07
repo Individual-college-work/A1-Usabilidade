@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "shortcut icon" type = "imagem/x-icon" href = "../assets/Carrosel.jpg"/>
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/carrosel.css">
+    <title>Carrosel - Imagens</title>
+</head>
+<body>
+    <div class="container">
+        <div id="titulo-carrosel">
+            <h1 id="titulo">Carrosel de Imagens</h1>
+            <a id="link-github" href="https://github.com/BrenoAugustoComandolli">GitHub</a>
+        </div>
+        <div id="carrosel">
+            <ul id="listaImagens">
+                <li>
+                    <figure class="figura-transicao">
+                        <img class="imagem-transicao" src="../assets/Imagem1.jpg" alt="Ponte do lago">
+                        <figcaption class="legenda">
+                            <h6 class="texto-legenda">Ponte localizada no lago</h6>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="figura-transicao">
+                        <img class="imagem-transicao" src="../assets/Imagem2.jpg" alt="Casa do lago">
+                        <figcaption class="legenda">
+                            <h6 class="texto-legenda">Casa com nevoeiro</h6>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="figura-transicao">
+                        <img class="imagem-transicao" src="../assets/Imagem3.jpg" alt="Árvore">
+                        <figcaption class="legenda">
+                            <h6 class="texto-legenda">Árvore da florestas</h6>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+        <div id="acoes">
+            <button id="btn-esqueda" class="botao-acao" onclick="trocarImagem(true)">Esquerda</button>
+            <button id="btn-direto" class="botao-acao" onclick="trocarImagem(false)">Direita</button>
+            <a class="voltar" href="../index.html">Voltar</a>
+        </div>
+    </div>
+</body>
+</html>
+
+<script type="text/javascript" src="../scripts/carrosel.js"></script>

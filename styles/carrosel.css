@@ -1,0 +1,64 @@
+#carrosel{
+    position: relative;
+    width: 80vw;
+    height: 75vh;
+}
+
+#acoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    width: 80%;
+}
+
+#listaImagens{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+}
+
+#titulo{
+    color: aliceblue;
+    font-size: 18pt;
+    font-family: Georgia, serif;
+}
+
+.figura-transicao{
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 70vh;
+}
+
+.imagem-transicao{
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
+    border: 4px solid #4CAF50;
+}
+
+.legenda{
+    color: #ffff;
+    border-radius: 4px;
+    margin: 10px;
+    width: 100%;
+}
+
+#titulo-carrosel{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    height: 10vh;
+}
+
+#texto-legenda{
+    width: 100%;
+    height: 100%;
+}
+
+#link-github{
+    color: #ffff;
+    margin-left: 20px;
+    margin-top: 8px;
+}
